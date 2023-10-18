@@ -1,0 +1,63 @@
+
+
+   .sidebar {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0.04% 2%;
+    padding-right: 0px;
+    background-color: white;
+    color: grey;
+    border-radius: 10px;
+  }
+  .home__img {
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: -10px;
+  }
+  .sidebar-header {
+    margin-left: 20px;
+    
+  }
+  .sidebar-header p {
+    margin-left: 25px;
+    margin-top: 5px;
+    
+  }
+
+  .sidebar-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-menu a, .sidebar-logout a{
+    padding: 3% 8%;
+    margin: 0.07rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    text-decoration: none;
+    color: grey;
+  }
+  
+  
+  .sidebar-menu a ion-icon, .sidebar-logout a ion-icon {
+    font-size: 20px;
+  }
+  
+  .sidebar-menu a:hover, .sidebar-logout a:hover {
+    background-color: rgba(10, 13, 43, 0.057);
+    /* border-radius: 50px; */
+  }
+
+  .sidebar-logout a {
+    margin-bottom: 35px;
+
+  }
