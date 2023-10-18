@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import '../css/Searchbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faUser, faCalendar, faLocation } from '@fortawesome/free-solid-svg-icons';
+import {  faUser, faCalendar, faLocation } from '@fortawesome/free-solid-svg-icons';
 
-import Ba from '../images/travel1.jpg';
+
 import Ca from '../images/bed4.jpg';
 import Ha from '../images/bed5.jpg';
 import Ja from '../images/bed6.jpg';

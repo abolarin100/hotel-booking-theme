@@ -20,15 +20,15 @@ function Sidebar() {
 
 
             <div className="sidebar-menu">
-                <a href="#"><ion-icon name="home-outline"></ion-icon>Dashboard</a>
-                <a href="#"><ion-icon name="car-outline"></ion-icon>Explore City</a>
-                <a href="#"><ion-icon name="wallet-outline"></ion-icon>Ticket</a>
-                <a href="#"><ion-icon name="heart-outline"></ion-icon>Favourites</a>
-                <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+                <a href="/"><ion-icon name="home-outline"></ion-icon>Dashboard</a>
+                <a href="/"><ion-icon name="car-outline"></ion-icon>Explore City</a>
+                <a href="/"><ion-icon name="wallet-outline"></ion-icon>Ticket</a>
+                <a href="/"><ion-icon name="heart-outline"></ion-icon>Favourites</a>
+                <a href="/"><ion-icon name="settings-outline"></ion-icon>Settings</a>
             </div>
 
             <div className="sidebar-logout">
-                <a href="#"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+                <a href="/"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
             </div>
             </div>
 
